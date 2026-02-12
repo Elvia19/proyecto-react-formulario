@@ -1,4 +1,6 @@
 📌 Lista de Tareas Básica
+
+
 📖 Descripción del Proyecto
 Lista de Tareas Básica: es una aplicación web desarrollada con React que permite visualizar y gestionar tareas pendientes.
 Las tareas se obtienen desde una API desplegada en AWS Lambda, lo que permite integrar frontend y backend en la nube.
