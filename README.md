@@ -2,6 +2,7 @@
 
 
 📖 Descripción del Proyecto
+
 Lista de Tareas Básica: es una aplicación web desarrollada con React que permite visualizar y gestionar tareas pendientes.
 Las tareas se obtienen desde una API desplegada en AWS Lambda, lo que permite integrar frontend y backend en la nube.
 El proyecto está accesible públicamente mediante una URL generada por Vercel.
@@ -10,18 +11,27 @@ El proyecto está accesible públicamente mediante una URL generada por Vercel.
 Objetivo del Proyecto
 
 Practicar la integración entre frontend y backend.
+
 Desplegar una API en la nube (AWS).
+
 Publicar una aplicación React accesible desde cualquier navegador.
+
 Documentar correctamente el código y el funcionamiento del sistema.
+
 
 
 Funcionalidades
 
 ✅ Mostrar lista de tareas desde una API en AWS.
+
 ➕ Agregar nuevas tareas.
+
 🔄 Marcar tareas como completadas o pendientes.
+
 🔍 Filtrar tareas (Todas, Pendientes, Completadas).
+
 🌐 Acceso público mediante URL.
+
 
 
 Tecnologías Utilizadas
