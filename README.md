@@ -34,38 +34,53 @@ Funcionalidades
 
 
 
+
 Tecnologías Utilizadas
 
-React (Frontend)
+1 React (Frontend)
 
-AWS Lambda (Backend)
+2 AWS Lambda (Backend)
 
-API Gateway
+3 API Gateway
 
-Vercel (Despliegue del frontend)
+4 Vercel (Despliegue del frontend)
 
-JavaScript (ES6)
+5 JavaScript (ES6)
 
-HTML & CSS
+6 HTML & CSS
+
 
 
 Acceso Público
 
 La aplicación está disponible en:
+
 https://proyecto5-xi.vercel.app?_vercel_share=xbiop2K91F2YWStc2uW7gQtEoQZVqvcL
+
 
 
 ⚙️ Cómo ejecutar el proyecto localmente
 
 Clonar el repositorio:
+
 git clone https://github.com/Elvia19/proyecto5.git
 
+
+
 Instalar dependencias:
+
 npm install
+
 Ejecutar en modo desarrollo:
+
 npm start
+
 Construir para producción:
+
 npm run build
+
+
+
 
 Estructura del Proyecto
 src/
@@ -75,12 +90,22 @@ src/
 
 
 App.js → Contiene la lógica principal y conexión con la API.
+
 index.js → Punto de entrada de React.
+
 index.css → Estilos globales.
 
+
+
+
 Conclusión
+
 Este proyecto demuestra la integración completa entre:
+
 Un frontend desarrollado en React
+
 Un backend desplegado en AWS
+
 Un sistema accesible públicamente
+
 Cumple con los requisitos de despliegue en la nube y documentación completa del código.
