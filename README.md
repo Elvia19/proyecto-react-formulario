@@ -1,16 +1,74 @@
-# React + Vite
+📌 Lista de Tareas Básica
+📖 Descripción del Proyecto
+Lista de Tareas Básica: es una aplicación web desarrollada con React que permite visualizar y gestionar tareas pendientes.
+Las tareas se obtienen desde una API desplegada en AWS Lambda, lo que permite integrar frontend y backend en la nube.
+El proyecto está accesible públicamente mediante una URL generada por Vercel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Objetivo del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Practicar la integración entre frontend y backend.
+Desplegar una API en la nube (AWS).
+Publicar una aplicación React accesible desde cualquier navegador.
+Documentar correctamente el código y el funcionamiento del sistema.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Funcionalidades
 
-## Expanding the ESLint configuration
+✅ Mostrar lista de tareas desde una API en AWS.
+➕ Agregar nuevas tareas.
+🔄 Marcar tareas como completadas o pendientes.
+🔍 Filtrar tareas (Todas, Pendientes, Completadas).
+🌐 Acceso público mediante URL.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tecnologías Utilizadas
+
+React (Frontend)
+
+AWS Lambda (Backend)
+
+API Gateway
+
+Vercel (Despliegue del frontend)
+
+JavaScript (ES6)
+
+HTML & CSS
+
+
+Acceso Público
+
+La aplicación está disponible en:
+https://proyecto5-xi.vercel.app?_vercel_share=xbiop2K91F2YWStc2uW7gQtEoQZVqvcL
+
+
+⚙️ Cómo ejecutar el proyecto localmente
+
+Clonar el repositorio:
+git clone https://github.com/Elvia19/proyecto5.git
+
+Instalar dependencias:
+npm install
+Ejecutar en modo desarrollo:
+npm start
+Construir para producción:
+npm run build
+
+Estructura del Proyecto
+src/
+ ├── App.js
+ ├── index.js
+ ├── index.css
+
+
+App.js → Contiene la lógica principal y conexión con la API.
+index.js → Punto de entrada de React.
+index.css → Estilos globales.
+
+Conclusión
+Este proyecto demuestra la integración completa entre:
+Un frontend desarrollado en React
+Un backend desplegado en AWS
+Un sistema accesible públicamente
+Cumple con los requisitos de despliegue en la nube y documentación completa del código.
